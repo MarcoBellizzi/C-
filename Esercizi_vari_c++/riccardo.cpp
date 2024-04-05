@@ -24,10 +24,11 @@ void metodo(int a[]) {
 
 int main() {
 
-	int array = {1,2,3,4,5};
+	int array[] = {1,2,3,4,5};
 
 	int *puntatore = new int[sizeof(array)] ;
-	metodo(&array) ;
+	
+	metodo(array) ;
 
 	return 0;
 }
